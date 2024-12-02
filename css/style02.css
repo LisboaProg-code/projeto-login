@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    
+    .login{
+        width: 768px;
+        background-color: #012e68d7;
+        color: rgb(199, 199, 199);
+        text-shadow: 2px 2px 1px rgba(0, 0, 0, .3);
+    }
+
+    .img{
+        transform: translate(88%, 0%);
+        background-position: center top;
+        width: 30vw;
+        height: 78vh;
+    }
+
+    .form{
+        transform: translate(-26%, -700%);
+    }
+
+    .form h1{
+        font-size: 2.2em;
+    }
+
+
+
+}
