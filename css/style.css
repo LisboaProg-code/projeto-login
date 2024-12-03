@@ -27,12 +27,18 @@ main{
 }
 
 .login{
-    background-color: white;
+    background-color: #012e68d7;
+    color: rgb(199, 199, 199);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, .3);
     width: 350px;
-    height: 500px;
+    height: 550px;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .5);
+}
+
+h1{
+    padding-bottom: 10px;
 }
 
 .img{
@@ -49,5 +55,64 @@ main{
     display: block;
     text-align: center;
     padding: 10px;
+}
 
+form{
+    color: white;
+}
+
+p{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.email, .senha{
+    background-color: #011126;
+}
+
+.entrar, .esqueci{
+    border-radius: 10px;
+    width: 300px;
+    margin-bottom: -10px;
+}
+
+.entrar{
+    background-color: #048ABF;
+    color: white;
+    border: 1px solid black;
+}
+
+.esqueci{
+    border: 1px solid #0890c5;
+    color: #046991;
+}
+
+input{
+    width: 250px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.entrar:hover, .esqueci:hover{
+    background-color: #72B6FF;
+}
+
+.color{
+    background-color: #0367A6;
+    border: 1px solid black;
+}
+
+.color:focus{
+    background-color: #9AC7FF;
+}
+
+::placeholder{
+    color: white
+}
+
+.material-symbols-outlined{
+    transform: translate(5%, 30%);
+    font-size: 30px;
 }
