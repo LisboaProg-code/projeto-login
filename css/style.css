@@ -116,3 +116,9 @@ input{
     transform: translate(5%, 30%);
     font-size: 30px;
 }
+
+#mail{
+    font-size: 20px;
+    color: #046991;
+    transform: translate(330%, -130%);
+}
