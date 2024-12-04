@@ -1,19 +1,26 @@
 @charset "UTF-8";
 
-:root{
-    --verde:#49a09d;
-    --azul:#011126;
-}
+/* cores
+fundo, fundo dos campos: #011126
+ gradiente fundo: #011126, #0E223C,  #153259, 
+ tela login fundo: #012e68d7
+ cor butão entrar: #048ABF 
+ borda do esqueci a senha: #0890c5
+ letra esqueci a senha e o pin: #046991
+ cor de :hover dos campos: #72B6FF
+ cor do :focus: #9AC7FF
+ cor da letra do h1: rgb 199 199 199
+ */
 
 *{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
 body, html{
-    background-color: var(--azul);
+    background-color: #011126;
     height: 100vh;
     width: 100vw;
 }
@@ -27,98 +34,27 @@ main{
 }
 
 .login{
-    background-color: #012e68d7;
-    color: rgb(199, 199, 199);
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, .3);
+    background-color:  #012e68d7;
     width: 350px;
     height: 550px;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, .5);
-}
-
-h1{
-    padding-bottom: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 .img{
     display: block;
-    background-color: var(--azul);
+    background-color: #011126;
     background-image: url(../img/predio.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 250px;
+    background-position: center center;
+    height: 250px
 }
 
 .form{
     display: block;
-    text-align: center;
     padding: 10px;
-}
-
-form{
-    color: white;
-}
-
-p{
-    margin: 5px;
-    padding: 5px;
-    border-radius: 30px;
-}
-
-.email, .senha{
-    background-color: #011126;
-}
-
-.entrar, .esqueci{
-    border-radius: 10px;
-    width: 300px;
-    margin-bottom: -10px;
-}
-
-.entrar{
-    background-color: #048ABF;
-    color: white;
-    border: 1px solid black;
-}
-
-.esqueci{
-    border: 1px solid #0890c5;
-    color: #046991;
-}
-
-input{
-    width: 250px;
-    height: 45px;
-    padding: 10px;
-    border-radius: 25px;
-}
-
-.entrar:hover, .esqueci:hover{
-    background-color: #72B6FF;
-}
-
-.color{
-    background-color: #0367A6;
-    border: 1px solid black;
-}
-
-.color:focus{
-    background-color: #9AC7FF;
-}
-
-::placeholder{
-    color: white
-}
-
-.material-symbols-outlined{
-    transform: translate(5%, 30%);
-    font-size: 30px;
-}
-
-#mail{
-    font-size: 20px;
-    color: #046991;
-    transform: translate(330%, -130%);
 }

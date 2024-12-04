@@ -1,100 +1,46 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    
-    body{
-        background-image: linear-gradient(to top, #011126,  #153259);
-    }
-
-    .login{
-        width: 768px;
-    }
-
-    .img{
-        transform: translate(100%, 0%);
-        background-position: center top;
-        background-size: cover;
-        width: 50vw;
-        height: 100vh;
-    }
-
-    .form{
-        transform: translate(-24%, -150%);
-    }
-
-    .form h1{
-        font-size: 3em;
-        transform: translate(-1%,-50%);
-    }
-
-    p{
-        width: 380px;
-        transform: translateX(45%);
-    }
-
-    input{
-        width: 310px;
-        height: 55px;
-        transform: translate(3%, 0%);
-    }
-
-    .material-symbols-outlined{
-        font-size: 35px;
-        transform: translate(10%, 30%);
-    }
-
-    .entrar, .esqueci{
-        width: 370px;
-        transform: translate(0%, 0%);
-    }
-
-}
-
-@media screen and (min-width:1025px) {
+@media screen and (min-width:768px) and (max-width: 1024px) {
 
     body{
         background-image: linear-gradient(to top, #011126, #0E223C,  #153259);
     }
 
     .login{
-        width: 1000px;
+        width: 85vw;
     }
 
     .img{
-        transform: translate(90%, 0%);
-        background-position: center center;
-        background-size: cover;
-        width: 40vw;
-        height: 90vh;
+        float: left;
+        width: 50%;
+        height: 120%;
+        background-position: center top;
     }
 
     .form{
-        transform: translate(-24%, -130%);
+        float: right;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    body{
+        background-image: linear-gradient(to top, #011126, #0E223C,  #153259);
     }
 
-    .form h1{
-        font-size: 3em;
-        transform: translate(-1%,-50%);
+    .login{
+        width: 950px;
     }
 
-    p{
-        width: 470px;
-        transform: translateX(50%);
+    .img{
+        float: right;
+        width: 50%;
+        height: 110%;
     }
 
-    input{
-        width: 375px;
-        height: 55px;
-        transform: translate(5%, 0%);
+    .form{
+        float: left;
+        width: 50%;
     }
-
-    .entrar, .esqueci{
-        width: 460px;
-        transform: translateX(-0%);
-    }
-
-    .material-symbols-outlined{
-        font-size: 35px;
-    }
-
 }
